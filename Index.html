@@ -41,16 +41,28 @@
 
     <br>
     <div>
-        <label>Bsc.</label>
-        <input type="radio" name="qualifications">
-        <label>Masters</label>
-        <input type="radio" name="qualifications">  
-        <label>PhD.</label>
-        <input type="radio" name="qualifications">
+        <label for="qualifications">Qualification:</label>
+        <label for="BSC.">Bsc.</label>
+        <input type="radio" id="BSC." name="qualifications" value="BSC.">
+        <label for="Masters">Masters</label>
+        <input type="radio" id="Masters" name="qualifications"value="Masters">  
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." name="qualifications"value="PhD.">
     </div>
 
      <br> 
-       
+      
+     <div>
+        <label for="gender"> Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+     </div>
+
+     <br>
+     
     <div>
        <input type="reset">
     </div>
